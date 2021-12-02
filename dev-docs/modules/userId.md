@@ -1502,7 +1502,7 @@ pbjs.setConfig({
             storage: {
                 type: "cookie",
                 name: "idl_env",       // create a cookie with this name
-                expires: 30            // cookie can last for 30 days
+                expires: 15            // cookie can last for 15 days
             }
         }],
         syncDelay: 3000              // 3 seconds after the first auction
@@ -1524,7 +1524,7 @@ pbjs.setConfig({
             storage: {
                 type: "html5",
                 name: "idl_env",    // set localstorage with this name
-                expires: 30
+                expires: 15
             }
         }],
         syncDelay: 3000
